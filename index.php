@@ -46,7 +46,7 @@
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Buscar... &#x1F50D;" aria-label="Search"
                         name="s">
-                    <button class="btn btn-success" type="submit">Buscar</button>
+                    <button class="btn btn-danger" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
@@ -107,12 +107,12 @@
             </div>
         </div>
     </div>
-    <div class="tarjetas">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="tarjetas text-center">
+        <div class="row row-cols-1 row-cols-md-4 g-4 ">
             <div class="col">
                 <a href="#">
                     <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
-                    <div class="card bg-dark text-white">
+                    <div class="card bg-dark text-white text-center">
                         <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
                             preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -129,7 +129,7 @@
             <div class="col">
                 <a href="#">
                     <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
-                    <div class="card bg-dark text-white">
+                    <div class="card bg-dark text-white text-center">
                         <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
                             preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -154,13 +154,13 @@
                             <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
                                 dy=".3em">Imagen 3</text>
                         </svg>
-                        <div class="card-img-overlay">
+                        <div class="card-img-overlay text-center">
                             <h5 class="card-title">Ribbons</h5>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col">
+            <div class="col  text-center">
                 <a href="#">
                     <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
                     <div class="card bg-dark text-white">
@@ -171,8 +171,8 @@
                             <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
                                 dy=".3em">Imagen 4</text>
                         </svg>
-                        <div class="card-img-overlay">
-                            <h5 class="card-title">Software</h5>
+                        <div class="card-img-overlay text-center">
+                            <h5 class="card-title  text-center">Software</h5>
                         </div>
                     </div>
                 </a>
