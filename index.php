@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #C0392B;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Etiquetin</a>
+            <a class="navbar-brand" href="./">Etiquetin</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,10 +26,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="./">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">asdf</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -37,21 +37,15 @@
                             Dropdown
                         </a>
                         <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">asd</a></li>
+                            <li><a class="dropdown-item" href="#">asd</a></li>
+                            <li><a class="dropdown-item" href="#">asd</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar... &#x1F50D;"
-                        aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar... &#x1F50D;" aria-label="Search"
+                        name="s">
                     <button class="btn btn-success" type="submit">Buscar</button>
                 </form>
             </div>
@@ -75,7 +69,7 @@
                             preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
                             <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
-                                dy=".3em">First slide</text>
+                                dy=".3em">Primer slide</text>
                         </svg>
 
                     </div>
@@ -85,7 +79,7 @@
                             preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
                             <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
-                                dy=".3em">Second slide</text>
+                                dy=".3em">segundo slide</text>
                         </svg>
 
                     </div>
@@ -95,7 +89,7 @@
                             preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
                             <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
-                                dy=".3em">Third slide</text>
+                                dy=".3em">tercer slide</text>
                         </svg>
 
                     </div>
@@ -114,74 +108,74 @@
         </div>
     </div>
     <div class="tarjetas">
-        <!-- //todo SOLO TITULO CARDS -->
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
-                <div class="card bg-dark text-white">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                            dy=".3em">Image cap</text>
-                    </svg>
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-
+                <a href="#">
+                    <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
+                    <div class="card bg-dark text-white">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                                dy=".3em">Imagen 1</text>
+                        </svg>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Etiquetas autoadhesivas</h5>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card bg-dark text-white">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                            dy=".3em">Image cap</text>
-                    </svg>
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
+                <a href="#">
+                    <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
+                    <div class="card bg-dark text-white">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                                dy=".3em">Imagen 2</text>
+                        </svg>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Impresoras de etiquetas</h5>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card bg-dark text-white">
-                    <svg class="bd-placeholder-img" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-                        role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                        focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                            dy=".3em">Image cap</text>
-                    </svg>
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
+                <a href="#">
+                    <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
+                    <div class="card bg-dark text-white">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                                dy=".3em">Imagen 3</text>
+                        </svg>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Ribbons</h5>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col">
-                <div class="card bg-dark text-white">
-                    <svg class="bd-placeholder-img" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-                        role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
-                        focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                            dy=".3em">Image cap</text>
-                    </svg>
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
+                <a href="#">
+                    <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
+                    <div class="card bg-dark text-white">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                                dy=".3em">Imagen 4</text>
+                        </svg>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Software</h5>
+                        </div>
                     </div>
-                </div>
-
+                </a>
             </div>
         </div>
     </div>
