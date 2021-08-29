@@ -1,3 +1,7 @@
+body {
+  background-color: #f0f0f0;
+}
+
 .active {
   background-color: #9f3327;
 }
@@ -11,3 +15,9 @@
 .carousel-indicators {
   top: 0;
 }
+.card-title {
+  bottom: 0;
+  position: absolute;
+}
+
+/* TODO: DEGRADADO TARJETAS INDEX */
