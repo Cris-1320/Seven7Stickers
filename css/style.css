@@ -1,0 +1,13 @@
+.active {
+  background-color: #9f3327;
+}
+.giragira {
+  padding: 2%;
+  height: 25%;
+}
+.tarjetas {
+  padding: 1% 10%;
+}
+.carousel-indicators {
+  top: 0;
+}
