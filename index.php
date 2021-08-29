@@ -52,7 +52,33 @@
         </div>
     </nav>
     <div class="giragira">
-        <div class="bd-example">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- <div class="bd-example">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class=""
@@ -100,72 +126,48 @@
                     <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
-        </div>
+        </div> -->
     </div>
-    <div class="tarjetas text-center">
+    <div class="tarjetas">
         <div class="row row-cols-1 row-cols-md-4 g-4 ">
             <div class="col">
                 <a href="#">
-                    <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
                     <div class="card bg-dark text-white">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                                dy=".3em">Imagen 1</text>
-                        </svg>
+                        <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg" class="card-img"
+                            alt="...">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">Etiquetas autoadhesivas</h5>
+                            <h5 class="card-title">Etiquetas Autoadhesivas</h5>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col">
                 <a href="#">
-                    <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
                     <div class="card bg-dark text-white">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                                dy=".3em">Imagen 2</text>
-                        </svg>
+                        <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg" class="card-img"
+                            alt="...">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">Impresoras de etiquetas</h5>
+                            <h5 class="card-title">Impresoras de Etiquetas</h5>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col">
                 <a href="#">
-                    <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
                     <div class="card bg-dark text-white">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                                dy=".3em">Imagen 3</text>
-                        </svg>
+                        <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg" class="card-img"
+                            alt="...">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">Ribbons</h5>
+                            <h5 class="card-title">Ribborn</h5>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col">
                 <a href="#">
-                    <!-- //TODO: LINKS CATEGORIAS PHP DB  -->
                     <div class="card bg-dark text-white">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
-                                dy=".3em">Imagen 4</text>
-                        </svg>
+                        <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg" class="card-img"
+                            alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Software</h5>
                         </div>
@@ -173,9 +175,9 @@
                 </a>
             </div>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js">
-    </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js">
+        </script>
 </body>
 
 </html>
