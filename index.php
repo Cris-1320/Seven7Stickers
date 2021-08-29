@@ -64,14 +64,9 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
-                                dy=".3em">Primer slide</text>
-                        </svg>
-
+                        <img src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            alt="" class="d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
+                            role="img" aria-label="Placeholder: First slide">
                     </div>
                     <div class="carousel-item active">
                         <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"

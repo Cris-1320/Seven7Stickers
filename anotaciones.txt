@@ -1,6 +1,7 @@
 TODO:
 
 1-centrar texto en cards
+2-ver el tema de las imagenes con el slider
 
 
 
