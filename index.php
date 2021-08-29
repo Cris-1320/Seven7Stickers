@@ -10,9 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon"
-        href="https://i0.wp.com/nyssa.com.ar/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-29-at-15.14.35.jpeg?fit=192%2C192&ssl=1"
-        type="image/x-icon">
+    <link rel="shortcut icon" href="src/logochico.ico" type="image/x-icon">
     <title>Etiquetin</title>
 </head>
 
@@ -116,9 +114,10 @@
         </div>
     </div>
     <div class="tarjetas">
+        <!-- //todo SOLO TITULO CARDS -->
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
-                <div class="card">
+                <div class="card bg-dark text-white">
                     <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
                         xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -126,15 +125,16 @@
                         <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
                             dy=".3em">Image cap</text>
                     </svg>
-                    <div class="card-body">
+                    <div class="card-img-overlay">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card bg-dark text-white">
                     <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
                         xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -142,44 +142,48 @@
                         <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
                             dy=".3em">Image cap</text>
                     </svg>
-                    <div class="card-body">
+                    <div class="card-img-overlay">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card bg-dark text-white">
+                    <svg class="bd-placeholder-img" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                        role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
                             dy=".3em">Image cap</text>
                     </svg>
-                    <div class="card-body">
+                    <div class="card-img-overlay">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card bg-dark text-white">
+                    <svg class="bd-placeholder-img" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
+                        role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
                             dy=".3em">Image cap</text>
                     </svg>
-                    <div class="card-body">
+                    <div class="card-img-overlay">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
