@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scale=no, initial-scale=1, maximum-scale=1,minimun-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img2/LOGO-212-NY-PIZZA-.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .menu {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0 15px 0;
+            font-weight: 300;
+        }
+
+        .linea {
+            border-top: 5px solid darkred;
+            margin-bottom: 40px;
+        }
+
+        .linea2 {
+            border-bottom: 5px solid red;
+            margin-bottom: 40px;
+        }
+
+        table {
+            margin: 30px;
+        }
+
+        table>tr {
+            margin: 30px;
+        }
+
+        .color {
+            color: #fff;
+        }
+
+        .tablas {
+            display: flex;
+            width: 85%;
+            margin: auto;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            border-radius: 3px;
+        }
+
+        section {
+            display: flex;
+            width: 85%;
+            margin: auto;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            border-radius: 3px;
+        }
+
+        @media screen and (max-width:1000px) {
+            .contenedor-imagenes {
+                width: 95%;
+            }
+        }
+
+        @media screen and (max-width:700px) {
+            section {
+                width: 90%;
+            }
+
+            section table {
+                width: 48%;
+            }
+        }
+
+        @media screen and (max-width:450px) {
+            h1 {
+                font-size: 22px;
+            }
+
+            section tr {
+                width: 98%;
+            }
+
+        }
+
+        .img {
+            border-radius: 100px;
+            box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+
+        input[type="checkbox"] {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            width: 50px;
+            height: 50px;
+            z-index: 100000;
+            cursor: pointer;
+            opacity: 0;
+        }
+
+        .icon {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            width: 50px;
+            height: 50px;
+            z-index: 100001;
+            background: #000;
+            pointer-events: none;
+            font-family: consolas;
+        }
+
+        .icon:before {
+            content: 'close';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        input[type="checkbox"]:checked~.icon:before {
+            content: 'menu';
+        }
+
+        ul {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 50px 20px;
+            box-sizing: border-box;
+            width: 300px;
+            height: 100vh;
+            background: #000;
+            transition: 0.5s;
+            z-index: 100000;
+            overflow-y: auto;
+        }
+
+        input[type="checkbox"]:checked~ul {
+            left: -300px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            display: block;
+            color: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            transition: 0.5s;
+        }
+
+        ul li a:hover {
+            transform: translateX(10px);
+            color: #ff0;
+        }
+
+        #Title {
+            display: block;
+            color: #fd0101;
+            padding: 10px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" name="" checked="checked">
+    <span class="icon"></span>
+    <ul>
+        <h1 id="Title">212 NY Pizzas: Menu de Comida</h1>
+        <li><a href="index.html">Pagina Principal</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="Franquicia.html">Franquicia</a></li>
+        <li><a href="Locales.html">Locales</a></li>
+        <li><a href="Galeria.html">Galeria</a></li>
+    </ul>
+
+    <div class="menu">
+        <h1>Menu 212 NY Pizza</h1>
+        <div class="linea"></div>
+    </div>
+    <section>
+        <img class="img"
+            src="https://assets.bonappetit.com/photos/5a9dd672eb730726d6c7ec19/16:9/w_2560%2Cc_limit/pizza-slice-opener-pepperoni-cheese.jpg"
+            alt="" width="200">
+        <table>
+            <tr>
+                <td class="linea2"><img src="img/menu/Captura1.PNG" alt=""></td>
+            </tr>
+            <tr class="no">
+                <td><strong>Queso</strong></td>
+                <td><strong>$100.00</strong></td>
+            </tr>
+            <td><strong>Slice con 1 ingrediente extra</strong></td>
+            <td><strong>$125.00</strong></td>
+        </table>
+        <table>
+            <tr>
+                <td class="linea2"><img src="img/menu/Captura3.PNG" alt=""></td>
+            </tr>
+            <tr>
+                <td><strong>Queso</strong></td>
+                <td><strong>RD$125.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Slice con 1 ingrediente extra</strong></td>
+                <td><strong>RD$150.00</strong></td>
+            </tr>
+        </table>
+        <img class="img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzEiQhJCCWNL330e87s55Ycapo8EaFz0NKTaAlm7GheuZtd5GoPA&s"
+            alt="" width="200" height="200">
+    </section>
+    <section>
+        <table>
+            <tr>
+                <td class="linea2"><img src="img/menu/Captura4.PNG" alt=""></td>
+            </tr>
+            <tr>
+                <td><strong>Queso</strong></td>
+                <td><strong>RD$650.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Pepperoni</strong></td>
+                <td><strong>RD$775.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Jamón y Queso</strong></td>
+                <td><strong>RD$775.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Salchichas Italianas</strong></td>
+                <td><strong>RD$775.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Maíz</strong></td>
+                <td><strong>RD$775.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>
+                        Vegetales<br>(Pimientos, Cebolla y Aceitunas Negras)</strong></td>
+                <td><strong>RD$775.00<br></strong>
+                    <p class="color">.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Hongos</strong></td>
+                <td><strong>RD$775.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Extra Queso</strong></td>
+                <td><strong>RD$775.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>NY Everything</strong></td>
+                <td><strong>RD$775.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Meat Eater</strong></td>
+                <td><strong>RD$775.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Topping adicional<br>(Queso, Pepperoni, Jamón, Salchichas<br>Italianas, Maíz, Vegetales,
+                        Hongos)</strong></td>
+                <td><strong>RD$775.00</strong>
+                    <p class="color"><br>.<br>.</p>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="linea2"><img src="img/menu/Captura.PNG" alt=""></td>
+            </tr>
+            <tr>
+                <td><strong>Queso</strong></td>
+                <td><strong>RD$775.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Pepperoni</strong></td>
+                <td><strong>RD$895.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Jamón y Queso</strong></td>
+                <td><strong>RD$895.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Salchichas Italianas</strong></td>
+                <td><strong>RD$895.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Maíz</strong></td>
+                <td><strong>RD$895.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>
+                        Vegetales<br>(Pimientos, Cebolla y Aceitunas Negras)</strong></td>
+                <td><strong>RD$895.00<br></strong>
+                    <p class="color">.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Hongos</strong></td>
+                <td><strong>RD$895.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Extra Queso</strong></td>
+                <td><strong>RD$895.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>NY Everything</strong></td>
+                <td><strong>RD$895.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Meat Eater</strong></td>
+                <td><strong>RD$895.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Topping adicional<br>(Queso, Pepperoni, Jamón, Salchichas<br>Italianas, Maíz, Vegetales,
+                        Hongos)</strong></td>
+                <td><strong>RD$895.00</strong>
+                    <p class="color"><br>.<br>.</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <table>
+            <tr>
+                <td class="linea2"><img src="img/menu/Captura5.PNG" alt=""></td>
+            </tr>
+            <tr>
+                <td><strong>Barquilla</strong></td>
+                <td><strong>RD$50.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Cajita</strong></td>
+                <td><strong>RD$50.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Sundae<br>(Chocolate, Caramelo y Fresa)</strong></td>
+                <td><strong>RD$100.00<br></strong>
+                    <p class="color">.</p>
+                </td>
+            </tr>
+        </table>
+        <img class="img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBqhhHVso1jEcBQX8L-te3Yt6NM5IqaR5vSrWKQwqwT5p9n5qd&s"
+            alt="" width="200" height="200">
+        <table>
+            <tr>
+                <td class="linea2"><img src="img/menu/Captura6.PNG" alt=""></td>
+            </tr>
+            <tr>
+                <td><strong>Refresco 2L<br>Agrega más información sobre<br> este ítem...</strong></td>
+                <td><strong>RD$110.00<br></strong>
+                    <p class="color">.<br>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Refresco 16 onzas</strong></td>
+                <td><strong>RD$50.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Refresco doble litro</strong></td>
+                <td><strong>RD$110.00</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Smoothies<br>(Fresa, Limón, Piña Colada, Chinola...)<br> *Consultar disponibilidad.</strong>
+                </td>
+                <td><strong>RD$100.00<br></strong>
+                    <p class="color">.<br>.</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <div class="tablas">
+        <img class="img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3mHN4C-ndN0kdknDF3hkFkQetcQcDd6CWvIaspm7zgqXu8G0Kg&s"
+            alt="" width="200">
+        <table>
+            <tr>
+                <td class="linea2"><img src="img/menu/Captura2.PNG" alt=""></td>
+            </tr>
+            <tr>
+                <td><strong>Nuditos de canela<br>(6 unidades)</strong></td>
+                <td class="color">-------</td>
+                <td><strong>$120.00<br></strong>
+                    <p class="color">.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Nuditos de ajo y perejil<br>(6 unidades)</strong></td>
+                <td class="color">-------</td>
+                <td><strong>$125.00<br></strong>
+                    <p class="color">.</p>
+                </td>
+            </tr>
+        </table>
+        <img class="img" src="https://sigra.com/wp-content/uploads/2019/08/Nudos.jpg" alt="" width="200">
+    </div>
+</body>
+
+</html>

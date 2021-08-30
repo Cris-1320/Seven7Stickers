@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Locales</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img2/LOGO-212-NY-PIZZA-.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #texto {
+            text-align: center;
+            margin: 20px 0 15px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            font-weight: 200;
+
+        }
+
+        .linea {
+            border-bottom: 5px solid orangered;
+            margin-bottom: 40px;
+        }
+
+        #icon {
+            width: 15px;
+        }
+
+        #local1 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #local4 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #local2 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #local3 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        section h3 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: 150;
+        }
+
+        #local1 img {
+            margin-left: 40px;
+            width: 400px;
+            height: 300px;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+        }
+
+        #local2 img {
+            margin-right: 85px;
+            width: 400px;
+            height: 300px;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+        }
+
+        #local3 img {
+            margin-left: 85px;
+            width: 400px;
+            height: 300px;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+            border-radius: 50px;
+        }
+
+        #local4 img {
+            margin-right: 60px;
+            width: 400px;
+            height: 300px;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0);
+            border-radius: 50px;
+        }
+
+        section {
+            margin-top: 60px;
+        }
+
+        .color {
+            color: red;
+        }
+
+        input[type="checkbox"] {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            width: 50px;
+            height: 50px;
+            z-index: 100000;
+            cursor: pointer;
+            opacity: 0;
+        }
+
+        .icon {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            width: 50px;
+            height: 50px;
+            z-index: 100001;
+            background: #000;
+            pointer-events: none;
+            font-family: consolas;
+        }
+
+        .icon:before {
+            content: 'close';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        input[type="checkbox"]:checked~.icon:before {
+            content: 'menu';
+        }
+
+        ul {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 50px 20px;
+            box-sizing: border-box;
+            width: 300px;
+            height: 100vh;
+            background: #000;
+            transition: 0.5s;
+            z-index: 100000;
+            overflow-y: auto;
+        }
+
+        input[type="checkbox"]:checked~ul {
+            left: -300px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            display: block;
+            color: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            transition: 0.5s;
+        }
+
+        ul li a:hover {
+            transform: translateX(10px);
+            color: #ff0;
+        }
+
+        #title {
+            display: block;
+            color: #fd0101;
+            padding: 10px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" name="" checked="checked">
+    <span class="icon"></span>
+    <ul>
+        <h1 id="title">212 NY Pizza: Locales</h1>
+        <li><a href="index.html">Pagina Principal</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="Galeria.html">Galeria</a></li>
+        <li><a href="Franquicia.html">Franquicia</a></li>
+        <li><a href="Menu.html">Menu de Comida</a></li>
+    </ul>
+    <main>
+        <section id="texto">
+            <h1>Locales</h1>
+        </section>
+        <div class="linea"></div>
+        <section id="local1">
+            <h3>Calle San Luis #12, Esquina General Cabrera<br>Santiago, Rep. Dominicana<br>Tel: 809.734.0212
+                <br><br><strong class="color"> Horarios:</strong><br>Domingo - Jueves : 12:00PM -10:00PM<br>Viernes
+                -Sábado : 12:00PM - 11:00PM
+            </h3>
+            <img src="img2/Captura.PNG" alt="">
+        </section>
+        <section id="local2">
+            <img src="img2/Captura1.PNG" alt="">
+            <h3>Marginal Sur Autopista Duarte, KM 1<br>Santiago, Rep. Dominicana<br>T: 829.581.1212<br><br><strong
+                    class="color"> Horarios:</strong><br>Domingo - Jueves : 05:00PM -11:00PM<br>Viernes -Sábado :
+                12:00PM - 11:00PM</h3>
+        </section>
+        <section id="local3">
+            <h3>Foodtropolis RD - Av. Juan P. Duarte al lado<br>de OchoSantos<br>Santiago, Rep. Dominicana<br>T:
+                829.581.1212<br><br><strong class="color"> Horarios:</strong><br>Lunes - Domingo: 06:00PM - 12:00AM<br>
+            </h3>
+            <img src="img2/Captura2.PNG" alt="">
+        </section>
+        <section id="local4">
+            <img src="img2/Captura3.PNG" alt="">
+            <h3>Calle del Sol, Área Monumental.<br>Santiago, Rep. Dominicana<br>T: 829.581.1212 <br><br><strong
+                    class="color"> Horarios:</strong><br>Domingo - Jueves : 05:00PM -11:00PM<br>Viernes -Sábado :
+                12:00PM - 11:00PM</h3>
+        </section>
+    </main>
+</body>
+
+</html>

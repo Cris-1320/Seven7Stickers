@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="img2/LOGO-212-NY-PIZZA-.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .form-contacto {
+            width: 400px;
+            background: #000;
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+        }
+
+        .form-contacto h4 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            background: #000;
+        }
+
+        .controls {
+            width: 100%;
+            background: #000;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid rgb(255, 0, 0);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+        }
+
+        .form-contacto p {
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            background: #000;
+            color: white;
+        }
+
+        .form-contacto a {
+            color: white;
+            text-decoration: none;
+            background: #000;
+        }
+
+        .form-contacto a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .form-contacto .boton {
+            width: 100%;
+            background: rgb(255, 0, 0);
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 16px 0;
+            font-size: 16px;
+        }
+
+        input {
+            color: white;
+        }
+
+        textarea {
+            color: white;
+        }
+
+        form {
+            background: #000;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Consolas;
+            overflow-x: hidden;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZWeQnkDkRFEpysdMDKlWOJjJ5FUnI2zhLF_uy_4LbOtX1HLwU&usqp=CAU);
+        }
+
+        input[type="checkbox"] {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            width: 50px;
+            height: 50px;
+            z-index: 100000;
+            cursor: pointer;
+            opacity: 0;
+        }
+
+        .icon {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            width: 50px;
+            height: 50px;
+            z-index: 100001;
+            background: #000;
+            pointer-events: none;
+        }
+
+        .icon:before {
+            content: 'close';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        input[type="checkbox"]:checked~.icon:before {
+            content: 'menu';
+        }
+
+        ul {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 50px 20px;
+            box-sizing: border-box;
+            width: 300px;
+            height: 100vh;
+            background: #000;
+            transition: 0.5s;
+            z-index: 100000;
+            overflow-y: auto;
+        }
+
+        input[type="checkbox"]:checked~ul {
+            left: -300px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            display: block;
+            color: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            transition: 0.5s;
+        }
+
+        ul li a:hover {
+            transform: translateX(10px);
+            color: #ff0;
+        }
+
+        h1 {
+            display: block;
+            color: #fd7201;
+            padding: 10px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" name="" checked="checked">
+    <span class="icon"></span>
+    <ul>
+        <h1>212 NY Pizza: Contacto</h1>
+        <li><a href="index.html">Pagina Principal</a></li>
+        <li><a href="Franquicia.html">Franquicia</a></li>
+        <li><a href="Galeria.html">Galeria</a></li>
+        <li><a href="Locales.html">Locales</a></li>
+        <li><a href="Menu.html">Menu de Comida</a></li>
+    </ul>
+    <section class="form-contacto">
+        <form method="POST" onsubmit="return valida(this)">
+            <h4>212 NY Pizza: Contacto</h4>
+            <input class="controls" type="text" name="Nombre" placeholder="Nombre">
+            <input class="controls" type="email" name="Correo" placeholder="Correo">
+            <input class="controls" type="tel" name="Telefono" placeholder="Telefono">
+            <textarea class="controls" maxlength="100" name="Mensaje" placeholder="Comentario" id="coment"></textarea>
+            <input class="boton" type="submit" value="Enviar" id="botton">
+            <p>¿Deseas abrir tu franquicia?<a href="Franquicia.html">Ver formulario.</a></p>
+        </form>
+    </section>
+</body>
+<script>
+    function valida(f) {
+        var ok = true;
+        var msg = "Debes escribir algo en los campos:\n";
+        if (f.elements["Nombre"].value == "") {
+            msg += "Nombre\n";
+            ok = false;
+        }
+
+        if (f.elements["Telefono"].value == "") {
+            msg += "Telefono\n";
+            ok = false;
+        }
+
+        if (f.elements["Correo"].value == "") {
+            msg += "Correo\n";
+            ok = false;
+        }
+
+        if (f.elements["Mensaje"].value == "") {
+            msg += "Mensaje\n";
+            ok = false;
+        }
+
+        if (ok == false) {
+            alert(msg);
+        } else {
+            ok = true;
+            // alert("hola hiciste todo bien"); 
+        }
+
+        return ok;
+    }
+</script>
+
+</html>
