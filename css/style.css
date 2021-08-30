@@ -12,9 +12,6 @@ body {
 .tarjetas {
     padding: 0.5% 2.5%;
 }
-.carousel-indicators {
-    top: 0;
-}
 .card-title {
     bottom: 0;
     position: absolute;

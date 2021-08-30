@@ -5,19 +5,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="src/logochico.ico" type="image/x-icon">
-    <title>Etiquetin</title>
+    <title>SEVEN7STICKERS</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #C0392B;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./">Etiquetin</a>
+            <a class="navbar-brand" href="./">SEVEN7STICKERS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -55,16 +54,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        class="d-block w-100" alt="...">
+                    <img src="src\fotoejemplo.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        class="d-block w-100" alt="...">
+                    <img src="src\fotoejemplo.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        class="d-block w-100" alt="...">
+                    <img src="src\fotoejemplo.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -78,63 +74,13 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <!-- <div class="bd-example">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class=""
-                        aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2" class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3" class=""></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <img src="https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                            alt="" class="d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
-                            role="img" aria-label="Placeholder: First slide">
-                    </div>
-                    <div class="carousel-item active">
-                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
-                                dy=".3em">segundo slide</text>
-                        </svg>
-
-                    </div>
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
-                                dy=".3em">tercer slide</text>
-                        </svg>
-
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
-            </div>
-        </div> -->
     </div>
     <div class="tarjetas">
         <div class="row row-cols-1 row-cols-md-4 g-4 ">
             <div class="col">
                 <a href="#">
                     <div class="card bg-dark text-white">
-                        <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg" class="card-img"
-                            alt="...">
+                        <img src="src\fotoejemplo.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Etiquetas Autoadhesivas</h5>
                         </div>
@@ -144,8 +90,7 @@
             <div class="col">
                 <a href="#">
                     <div class="card bg-dark text-white">
-                        <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg" class="card-img"
-                            alt="...">
+                        <img src="src\fotoejemplo.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Impresoras de Etiquetas</h5>
                         </div>
@@ -155,8 +100,7 @@
             <div class="col">
                 <a href="#">
                     <div class="card bg-dark text-white">
-                        <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg" class="card-img"
-                            alt="...">
+                        <img src="src\fotoejemplo.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Ribborn</h5>
                         </div>
@@ -166,8 +110,7 @@
             <div class="col">
                 <a href="#">
                     <div class="card bg-dark text-white">
-                        <img src="https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg" class="card-img"
-                            alt="...">
+                        <img src="src\fotoejemplo.jpg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Software</h5>
                         </div>
