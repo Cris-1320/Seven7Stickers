@@ -2,7 +2,7 @@ body {
     background-color: #f0f0f0;
 }
 
-.active {
+.nav-item .active {
     background-color: #9f3327;
 }
 .giragira {
@@ -41,5 +41,6 @@ a:hover h5 {
 .giragira .carousel-item img {
     width: 100%;
     height: 75vh;
-    object-fit: cover;
+    /* object-fit: scale-down; */
+    background-size: cover;
 }

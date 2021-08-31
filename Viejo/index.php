@@ -27,20 +27,30 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="./">Inicio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">asdf</a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            Proceso
                         </a>
                         <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">asd</a></li>
-                            <li><a class="dropdown-item" href="#">asd</a></li>
+                            <li><a class="dropdown-item" href="#">Estructura Etiquetas</a></li>
+                            <li><a class="dropdown-item" href="#">Etiquetas Durables</a></li>
                             <li><a class="dropdown-item" href="#">asd</a></li>
                         </ul>
                     </li>
+                    <li cass="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Contacenos
+                        </a>
+                    </li>
+                    <li cass="nav-item">
+                        <a class="nav-link " aria-current="page" href="./">Contactenos</a>
+                    </li>
+                    <li cass="nav-item">
+                        <a class="nav-link" aria-current="page" href="./">La empresa</a>
+                    </li>
+
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Buscar... &#x1F50D;" aria-label="Search"
@@ -54,13 +64,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="src\fotoejemplo.jpg" class="d-block w-100" alt="...">
+                    <img src="src\sources\img13.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="src\fotoejemplo.jpg" class="d-block w-100" alt="...">
+                    <img src="src/sources/img12.jpeg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="src\fotoejemplo.jpg" class="d-block w-100" alt="...">
+                    <img src="src\sources\WhatsApp Image 2021-08-30 at 12.44.46.jpeg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -80,7 +90,7 @@
             <div class="col">
                 <a href="#">
                     <div class="card bg-dark text-white">
-                        <img src="src\fotoejemplo.jpg" class="card-img" alt="...">
+                        <img src="src\sources/img12.jpeg" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Etiquetas Autoadhesivas</h5>
                         </div>
