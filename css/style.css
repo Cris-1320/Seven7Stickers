@@ -1,0 +1,13 @@
+.principal {
+    background-image: url("../src/img39.jpeg");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sombreado {
+    text-shadow: 2px 2px 4px #ffffff;
+    font-family: "Passion One", cursive;
+    text-transform: uppercase;
+}
