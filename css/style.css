@@ -1,13 +1,46 @@
+/* //!Barra de navegacion */
+.cover-container {
+    max-width: 60em;
+}
+/* //!Fin barra de navegacion */
+
+/* //!Parallax div principal*/
 .principal {
-    background-image: url("../src/img39.jpeg");
+    background-image: url("../src/img8.jpeg");
+    background-attachment: fixed;
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+/* //!Fin parallax div principal*/
 
+/* //!Letra parallax div principal*/
 .sombreado {
     text-shadow: 2px 2px 4px #ffffff;
     font-family: "Passion One", cursive;
     text-transform: uppercase;
 }
+/* //!Fin letra parallax div principal*/
+
+/* //!carrousel */
+.calesita {
+    padding: 2%;
+}
+.form-control:focus {
+    border-color: #962d22;
+    box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* //!Fin carraousel */
+
+/* //!prallax con informacion*/
+.fotito {
+    background-image: url("../src/img29.jpeg");
+    background-attachment: fixed;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* //!Fin parallax con informacion */
