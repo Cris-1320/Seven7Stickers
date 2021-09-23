@@ -6,12 +6,13 @@
 
 /* //!Parallax div principal*/
 .principal {
-    background-image: url("../src/img8.jpeg");
+    background-image: url("../src/logoS7S.jpeg");
     background-attachment: fixed;
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; 
+    height: 100vh;
 }
 /* //!Fin parallax div principal*/
 
