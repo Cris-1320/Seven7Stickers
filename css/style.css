@@ -29,7 +29,7 @@
     padding: 2%;
 }
 .form-control:focus {
-    border-color: #962d22;
+    border-color: #f10619;
     box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
