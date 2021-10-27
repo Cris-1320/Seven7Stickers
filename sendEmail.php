@@ -13,6 +13,8 @@
 
 try {
 
+    //FIXME: validar que tengan datos para poder enviar
+
     //Recuperar los datos del formulario
     $f_type = $_POST['tipo'];
     $f_name = $_POST['nombre'];
@@ -30,7 +32,7 @@ try {
     $mail->Port       = 587; //587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom($mail->Username, $f_name);
+    $mail->setFrom($mail->Username, 'No Responder');
     $mail->addAddress('seven7stikers@gmail.com');     
     //$mail->addAddress('ellen@example.com');               //Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
@@ -51,11 +53,13 @@ try {
                      'Mensaje: '.$f_message;
  
 
+    //FIXME: Valdiar antes de enviar
     $mail->send();
     echo "<h1>Hemos recibido su email y nos pondremos en contacto a la brevedad</h1>";
     echo "<input type=\"button\" onclick=\"location.href='".(isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST']."'\" value=\"Volver\"></button>";
 } catch (Exception $e) {
     echo "Error, el mensaje no se envió: {$mail->ErrorInfo}";
+    echo "<input type=\"button\" onclick=\"location.href='".(isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST']."'\" value=\"Volver\"></button>";
 }
 
 
